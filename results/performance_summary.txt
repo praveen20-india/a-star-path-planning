@@ -1,0 +1,20 @@
+--- Scenario: map0_goal1 ---
+Connectivity 4 - Failure: Disconnected Domain.
+Connectivity 8 - Failure: Disconnected Domain.
+
+--- Scenario: map0_goal2 ---
+Connectivity 4 - Cost: 140.00, Nodes in Path: 141
+Connectivity 8 - Cost: 106.02, Nodes in Path: 83
+
+--- Scenario: map1 ---
+Connectivity 4 - Cost: 172.00, Nodes in Path: 173
+Connectivity 8 - Cost: 137.44, Nodes in Path: 114
+
+--- Scenario: map2 ---
+Connectivity 4 - Cost: 222.00, Nodes in Path: 223
+Connectivity 8 - Cost: 188.61, Nodes in Path: 166
+
+--- Scenario: map3 ---
+Connectivity 4 - Cost: 688.00, Nodes in Path: 689
+Connectivity 8 - Cost: 523.39, Nodes in Path: 408
+
