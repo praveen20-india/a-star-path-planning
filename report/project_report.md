@@ -1,4 +1,4 @@
-# Autonomous Systems: A* (A-Star) Path Planning Protocol
+# A* (A-Star) Path Planning Protocol
 
 ## 1. Introduction
 Graph traversal forms the core of classical autonomous navigation. For unstructured environments discretized into uniform grids, evaluating the entire continuous workspace computationally fails to scale. The **A* (A-Star)** search algorithm mitigates exponential expansion by combining the guaranteed optimality of Dijkstra's Uniform Cost Search with a greedy heuristic $h(n)$—intelligently biasing spatial exploration directly toward the goal configuration. This report evaluates the kinematic generation of paths through binary occupancy domains utilizing strictly admissible Euclidean estimators.
